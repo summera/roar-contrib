@@ -3,13 +3,13 @@ require 'roar/decorator'
 
 class CollectionRepresenterTest < MiniTest::Spec
   class SongRepresenter < Roar::Decorator
-    include Roar::Representer::JSON
+    include Roar::JSON
 
     property :name
   end
 
   class SongsRepresenter < Roar::Decorator
-    include Roar::Representer::JSON
+    include Roar::JSON
     include Roar::Contrib::Decorator::CollectionRepresenter
   end
 
