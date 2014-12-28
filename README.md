@@ -1,4 +1,4 @@
-# roar-contrib
+# roar-contrib [![Build Status](https://travis-ci.org/sweatshirtio/roar-contrib.svg?branch=master)](https://travis-ci.org/sweatshirtio/roar-contrib)
 Collection of useful [Roar](https://github.com/apotonick/roar) contributions and extensions.
 
 ## Installation
