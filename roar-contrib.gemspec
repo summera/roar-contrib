@@ -7,8 +7,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Ari Summer']
   spec.email         = ['aribsummer@gmail.com']
   spec.summary       = %q{Collection of useful Roar extensions.}
-  spec.description   = spec.summary
-  spec.homepage      = 'https://github.com/sweatshirtio/roar-contrib'
+  spec.description   = %q{Roar provides object-oriented representers to define nested REST API documents which can be rendered and parsed. Roar-contrib adds some useful extensions.}
+  spec.homepage      = 'https://github.com/summera/roar-contrib'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split("\n")
