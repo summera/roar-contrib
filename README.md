@@ -1,12 +1,12 @@
-# roar-contrib [![Build Status](https://travis-ci.org/summera/roar-contrib.svg?branch=master)](https://travis-ci.org/summera/roar-contrib)
-Collection of useful [Roar](https://github.com/apotonick/roar) contributions and extensions.
+# roar-contrib [![Build Status](https://travis-ci.org/summera/roar-contrib.svg?branch=master)](https://travis-ci.org/summera/roar-contrib) [![Gem Version](https://badge.fury.io/rb/roar-contrib.svg)](http://badge.fury.io/rb/roar-contrib)
+Collection of useful [Roar](https://github.com/apotonick/roar) contributions and extensions. I just released a pre-release as I would like to know what you all think. Cheers!
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'roar-contrib'
+gem 'roar-contrib', '~> 0.0.1.alpha1'
 ```
 
 And then execute:
@@ -15,7 +15,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install roar-contrib
+    $ gem install roar-contrib --pre
 
 ## Representers
 
