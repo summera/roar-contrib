@@ -89,7 +89,10 @@ class PageRepresenterTest < MiniTest::Spec
     end
 
     describe 'using Kaminari' do
-      require 'kaminari'
+      require 'kaminari/config'
+      require 'kaminari/helpers/paginator'
+      require 'kaminari/models/page_scope_methods'
+      require 'kaminari/models/configuration_methods'
       require 'kaminari/models/array_extension'
 
       it 'renders a paginated response with no previous or next page' do
