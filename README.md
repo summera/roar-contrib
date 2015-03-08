@@ -6,7 +6,7 @@ Collection of useful [Roar](https://github.com/apotonick/roar) contributions and
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'roar-contrib', '~> 0.0.1.alpha1'
+gem 'roar-contrib'
 ```
 
 And then execute:
@@ -15,7 +15,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install roar-contrib --pre
+    $ gem install roar-contrib
 
 ## Representers
 
