@@ -1,5 +1,5 @@
-# roar-contrib [![Build Status](https://travis-ci.org/summera/roar-contrib.svg?branch=master)](https://travis-ci.org/summera/roar-contrib) [![Gem Version](https://badge.fury.io/rb/roar-contrib.svg)](http://badge.fury.io/rb/roar-contrib)
-Collection of useful [Roar](https://github.com/apotonick/roar) contributions and extensions. I just released a pre-release as I would like to know what you all think. Cheers!
+# roar-contrib [![Gem Version](https://badge.fury.io/rb/roar-contrib.svg)](http://badge.fury.io/rb/roar-contrib)
+Guide to working with [Roar](https://github.com/apotonick/roar) collections and paginating results. This library uses some metaprogramming to create collections and paginate results. While this may reduce the amount of code you need to write, it can obfuscate the implementation and make it difficult to debug. Therefore, I would suggest using this as a guide for how to work with Roar to create your own implementation. I hope it helps!
 
 ## Installation
 
